@@ -1,6 +1,8 @@
 FUTURE_CS_01 – Vulnerability Assessment Report for a Live Website
+
 Task Overview
 This repository contains Task 1 for the Future Interns Cyber Security Internship Program.
+
 The objective of this task is to:
 •	Identify common web security vulnerabilities in a live website 
 •	Classify risk levels (Low / Medium / High) 
