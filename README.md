@@ -64,7 +64,8 @@ These files document the findings collected during the assessment.
 
 ---
 
-##Key Findings Summary
+## Key Findings Summary
+
 Missing Security Headers (Medium Risk)
 Some HTTP security headers were not implemented, increasing the risk of client side attacks.
  Information Disclosure (Low Risk)
@@ -72,20 +73,30 @@ Server and framework information was visible in response headers.
  Insecure Cookies (Medium Risk)
 Cookies were missing Secure and HttpOnly flags.
 
+---
+
+
 VULNERABILITY
 .Missing Security Headers – Medium
 . Information Disclosure – Low
-.Insecure Cookie - Medium
+.Insecure Cookie – Medium
 
-##Overall Risk Level
+---
+
+
+
+
+
+ ## Overall Risk Level
+
 Low – Medium
 The vulnerabilities discovered mainly involve misconfigurations and information disclosure, which could assist attackers during reconnaissance phases.
 
+---
 
 
+## Scope and Methodology
 
-
-##Scope and Methodology
 Allowed activities:
   1. Target identification 
   2. Passive scanning and reconnaissance
@@ -100,7 +111,11 @@ Not performed:
 •	Denial-of-Service attacks
 All testing was conducted in read-only mode, respecting ethical guidelines.
 
-##References
+
+---
+
+
+ ## References
 •	OWASP Web Security Testing Guide
 •	Sample vulnerability reports from GitHub (as suggested in the task)
 
