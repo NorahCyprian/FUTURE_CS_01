@@ -111,10 +111,6 @@ Not performed:
 •	Denial-of-Service attacks
 All testing was conducted in read-only mode, respecting ethical guidelines.
 
-
----
-
-
  ## References
 •	OWASP Web Security Testing Guide
 •	Sample vulnerability reports from GitHub (as suggested in the task)
