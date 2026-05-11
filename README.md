@@ -69,7 +69,7 @@ These files document the findings collected during the assessment.
 2. MySQL database exposed on port 3306 - Medium 
 3. Missing X-Frame-Options header - Medium 
 4. Cookie missing Secure and SameSite attributes - Low 
-5. Server version information disclosure - Low 
+5. Server version information disclosure - Low
 
 ---
 
