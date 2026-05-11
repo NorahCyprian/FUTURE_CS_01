@@ -1,16 +1,14 @@
 # FUTURE_CS_01 – Vulnerability Assessment Report for a Live Website
 
 ## Task Overview
-This repository contains Task 1 for the Future Interns Cyber Security Internship Program. The objective of this task is to identify common web security vulnerabilities in a live website, classify risk levels (Low / Medium / High), Explain findings in simple business language and provide clear remediation steps. The assessment was conducted using passive reconnaissance and non-intrusive techniques only. No exploitation, modification, or disruptive attacks were performed during the testing process.
-Target Application: DVWA (Damn Vulnerable Web Application)
-Target IP Address: 192.168.56.101
-Environment: Metasploitable2 Framework
+     This repository contains Task 1 for the Future Interns Cyber Security Internship Program and the objective of this task is to identify common web security vulnerabilities in a live website, classify risk levels (Low / Medium / High), Explain findings in simple business language and provide clear remediation steps. The assessment was conducted using passive reconnaissance and non-intrusive techniques only. No exploitation, modification, or disruptive attacks were performed during the testing process.Target Application: DVWA (Damn Vulnerable Web Application),Target IP Address: 127.0.0.1,Environment: Oracle Virtual Box Manager
+
 ---
 
 ## Tools Used
 1.	Nmap
             Used for network discovery, port scanning, service detection and security auditing.
-             Example command used: nmap -sC -sV 192.168.56.101
+             Example command used: nmap -sC -Pn 127.0.0.1
            Purpose:
 •	Identify open ports
 •	Detect running services and their version.
@@ -56,30 +54,32 @@ Environment: Metasploitable2 Framework
 •	README.md
 •	evidence/
 Evidence folder contains:
-•	nmap_scan.txt
+•	nmap scan.txt
 •	headers.txt
 •	cookies.txt
-•	Screenshots of scan outputs
+•	whatweb.txt
+
 These files document the findings collected during the assessment.
 
 ---
 
 ## Key Findings Summary
 
-Missing Security Headers (Medium Risk)
-Some HTTP security headers were not implemented, increasing the risk of client side attacks.
- Information Disclosure (Low Risk)
-Server and framework information was visible in response headers.
- Insecure Cookies (Medium Risk)
-Cookies were missing Secure and HttpOnly flags.
+1. Missing Content-Security-Policy (CSP) header - Medium 
+2. MySQL database exposed on port 3306 - Medium 
+3. Missing X-Frame-Options header - Medium 
+4. Cookie missing Secure and SameSite attributes - Low 
+5. Server version information disclosure - Low 
 
 ---
 
 
 VULNERABILITY
-.Missing Security Headers – Medium
-. Information Disclosure – Low
-.Insecure Cookie – Medium
+1. Missing Content-Security-Policy (CSP) header - Medium 
+2. MySQL database exposed on port 3306 - Medium 
+3. Missing X-Frame-Options header - Medium 
+4. Cookie missing Secure and SameSite attributes - Low 
+5. Server version information disclosure - Low 
 
 ---
 
