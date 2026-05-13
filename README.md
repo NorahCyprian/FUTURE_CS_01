@@ -115,3 +115,24 @@ All testing was conducted in read-only mode, respecting ethical guidelines.
 •	OWASP Web Security Testing Guide
 •	Sample vulnerability reports from GitHub (as suggested in the task)
 
+
+...
+Author
+NORAH CYPRIAN NGILIULE  
+CIN ID: FIT/MAY26/CS8136  
+Future Interns Cyber Security Internship (2026)
+
+
+Repository Link
+https://github.com/NorahCyprian/FUTURE_CS_01
+
+
+
+
+
+
+
+
+
+
+
